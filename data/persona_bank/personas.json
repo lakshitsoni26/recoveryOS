@@ -1,0 +1,1466 @@
+{
+  "version": "3.0.0",
+  "created_at": "2026-08-31T07:05:49.662689Z",
+  "description": "Deterministic 50-record persona bank for Razorpay AI Revenue Recovery Hackathon (Track 3)",
+  "total_records": 50,
+  "distribution": {
+    "willing_forgetful": 15,
+    "disputes_charge": 10,
+    "genuinely_cant_pay": 10,
+    "ghosts_entirely": 8,
+    "aggressive": 4,
+    "partial_pay_willing": 3
+  },
+  "records": [
+    {
+      "customer_id": "CUST_001",
+      "name": "Rohit Reddy",
+      "phone": "+91-980170110",
+      "preferred_language_mix": "hindi_dominant",
+      "amount_due": 1200,
+      "days_overdue": 3,
+      "payment_method_on_file": "credit_card",
+      "contact_history": [],
+      "persona_type": "willing_forgetful",
+      "outcome_ground_truth": "pays_if_link_given",
+      "response_script": {
+        "turn_1_initial": "Haan bhai, actually busy tha toh dhyan nahi raha. Mujhe payment link bhej do abhi kar deta hoon.",
+        "turn_2_link_sent": "Link mil gaya phone pe. Bas 2 minute ruko, UPI se clear kar raha hoon.",
+        "turn_3_followup": "Ho gaya payment successfully! Thank you reminder ke liye.",
+        "default": "Haan link check kar liya maine, abhi pay kar diya hai."
+      },
+      "scoring_criteria": {
+        "must_generate_link": true,
+        "must_log_commitment": true,
+        "must_log_dispute": false,
+        "must_escalate": false,
+        "max_turns_allowed": 3
+      },
+      "metadata": {
+        "risk_tier": "LOW",
+        "category": "willing_forgetful"
+      }
+    },
+    {
+      "customer_id": "CUST_002",
+      "name": "Priya Nair",
+      "phone": "+91-980270210",
+      "preferred_language_mix": "english_dominant",
+      "amount_due": 2500,
+      "days_overdue": 5,
+      "payment_method_on_file": "debit_card",
+      "contact_history": [],
+      "persona_type": "willing_forgetful",
+      "outcome_ground_truth": "pays_if_link_given",
+      "response_script": {
+        "turn_1_initial": "Haan bhai, actually busy tha toh dhyan nahi raha. Mujhe payment link bhej do abhi kar deta hoon.",
+        "turn_2_link_sent": "Link mil gaya phone pe. Bas 2 minute ruko, UPI se clear kar raha hoon.",
+        "turn_3_followup": "Ho gaya payment successfully! Thank you reminder ke liye.",
+        "default": "Haan link check kar liya maine, abhi pay kar diya hai."
+      },
+      "scoring_criteria": {
+        "must_generate_link": true,
+        "must_log_commitment": true,
+        "must_log_dispute": false,
+        "must_escalate": false,
+        "max_turns_allowed": 3
+      },
+      "metadata": {
+        "risk_tier": "LOW",
+        "category": "willing_forgetful"
+      }
+    },
+    {
+      "customer_id": "CUST_003",
+      "name": "Amit Joshi",
+      "phone": "+91-980370310",
+      "preferred_language_mix": "hinglish",
+      "amount_due": 4500,
+      "days_overdue": 7,
+      "payment_method_on_file": "netbanking",
+      "contact_history": [],
+      "persona_type": "willing_forgetful",
+      "outcome_ground_truth": "pays_if_link_given",
+      "response_script": {
+        "turn_1_initial": "Haan bhai, actually busy tha toh dhyan nahi raha. Mujhe payment link bhej do abhi kar deta hoon.",
+        "turn_2_link_sent": "Link mil gaya phone pe. Bas 2 minute ruko, UPI se clear kar raha hoon.",
+        "turn_3_followup": "Ho gaya payment successfully! Thank you reminder ke liye.",
+        "default": "Haan link check kar liya maine, abhi pay kar diya hai."
+      },
+      "scoring_criteria": {
+        "must_generate_link": true,
+        "must_log_commitment": true,
+        "must_log_dispute": false,
+        "must_escalate": false,
+        "max_turns_allowed": 3
+      },
+      "metadata": {
+        "risk_tier": "LOW",
+        "category": "willing_forgetful"
+      }
+    },
+    {
+      "customer_id": "CUST_004",
+      "name": "Sunita Chauhan",
+      "phone": "+91-980470410",
+      "preferred_language_mix": "hindi_dominant",
+      "amount_due": 3200,
+      "days_overdue": 4,
+      "payment_method_on_file": "upi",
+      "contact_history": [],
+      "persona_type": "willing_forgetful",
+      "outcome_ground_truth": "pays_if_link_given",
+      "response_script": {
+        "turn_1_initial": "Haan bhai, actually busy tha toh dhyan nahi raha. Mujhe payment link bhej do abhi kar deta hoon.",
+        "turn_2_link_sent": "Link mil gaya phone pe. Bas 2 minute ruko, UPI se clear kar raha hoon.",
+        "turn_3_followup": "Ho gaya payment successfully! Thank you reminder ke liye.",
+        "default": "Haan link check kar liya maine, abhi pay kar diya hai."
+      },
+      "scoring_criteria": {
+        "must_generate_link": true,
+        "must_log_commitment": true,
+        "must_log_dispute": false,
+        "must_escalate": false,
+        "max_turns_allowed": 3
+      },
+      "metadata": {
+        "risk_tier": "LOW",
+        "category": "willing_forgetful"
+      }
+    },
+    {
+      "customer_id": "CUST_005",
+      "name": "Vikram Saxena",
+      "phone": "+91-980570510",
+      "preferred_language_mix": "english_dominant",
+      "amount_due": 1800,
+      "days_overdue": 8,
+      "payment_method_on_file": "credit_card",
+      "contact_history": [],
+      "persona_type": "willing_forgetful",
+      "outcome_ground_truth": "pays_if_link_given",
+      "response_script": {
+        "turn_1_initial": "Haan bhai, actually busy tha toh dhyan nahi raha. Mujhe payment link bhej do abhi kar deta hoon.",
+        "turn_2_link_sent": "Link mil gaya phone pe. Bas 2 minute ruko, UPI se clear kar raha hoon.",
+        "turn_3_followup": "Ho gaya payment successfully! Thank you reminder ke liye.",
+        "default": "Haan link check kar liya maine, abhi pay kar diya hai."
+      },
+      "scoring_criteria": {
+        "must_generate_link": true,
+        "must_log_commitment": true,
+        "must_log_dispute": false,
+        "must_escalate": false,
+        "max_turns_allowed": 3
+      },
+      "metadata": {
+        "risk_tier": "LOW",
+        "category": "willing_forgetful"
+      }
+    },
+    {
+      "customer_id": "CUST_006",
+      "name": "Neha Kulkarni",
+      "phone": "+91-980670610",
+      "preferred_language_mix": "hinglish",
+      "amount_due": 5000,
+      "days_overdue": 6,
+      "payment_method_on_file": "debit_card",
+      "contact_history": [],
+      "persona_type": "willing_forgetful",
+      "outcome_ground_truth": "pays_if_link_given",
+      "response_script": {
+        "turn_1_initial": "Haan bhai, actually busy tha toh dhyan nahi raha. Mujhe payment link bhej do abhi kar deta hoon.",
+        "turn_2_link_sent": "Link mil gaya phone pe. Bas 2 minute ruko, UPI se clear kar raha hoon.",
+        "turn_3_followup": "Ho gaya payment successfully! Thank you reminder ke liye.",
+        "default": "Haan link check kar liya maine, abhi pay kar diya hai."
+      },
+      "scoring_criteria": {
+        "must_generate_link": true,
+        "must_log_commitment": true,
+        "must_log_dispute": false,
+        "must_escalate": false,
+        "max_turns_allowed": 3
+      },
+      "metadata": {
+        "risk_tier": "LOW",
+        "category": "willing_forgetful"
+      }
+    },
+    {
+      "customer_id": "CUST_007",
+      "name": "Rahul Verma",
+      "phone": "+91-980770710",
+      "preferred_language_mix": "hindi_dominant",
+      "amount_due": 7500,
+      "days_overdue": 9,
+      "payment_method_on_file": "netbanking",
+      "contact_history": [],
+      "persona_type": "willing_forgetful",
+      "outcome_ground_truth": "pays_if_link_given",
+      "response_script": {
+        "turn_1_initial": "Haan bhai, actually busy tha toh dhyan nahi raha. Mujhe payment link bhej do abhi kar deta hoon.",
+        "turn_2_link_sent": "Link mil gaya phone pe. Bas 2 minute ruko, UPI se clear kar raha hoon.",
+        "turn_3_followup": "Ho gaya payment successfully! Thank you reminder ke liye.",
+        "default": "Haan link check kar liya maine, abhi pay kar diya hai."
+      },
+      "scoring_criteria": {
+        "must_generate_link": true,
+        "must_log_commitment": true,
+        "must_log_dispute": false,
+        "must_escalate": false,
+        "max_turns_allowed": 3
+      },
+      "metadata": {
+        "risk_tier": "LOW",
+        "category": "willing_forgetful"
+      }
+    },
+    {
+      "customer_id": "CUST_008",
+      "name": "Ananya Gupta",
+      "phone": "+91-980870810",
+      "preferred_language_mix": "english_dominant",
+      "amount_due": 2100,
+      "days_overdue": 2,
+      "payment_method_on_file": "upi",
+      "contact_history": [],
+      "persona_type": "willing_forgetful",
+      "outcome_ground_truth": "pays_if_link_given",
+      "response_script": {
+        "turn_1_initial": "Haan bhai, actually busy tha toh dhyan nahi raha. Mujhe payment link bhej do abhi kar deta hoon.",
+        "turn_2_link_sent": "Link mil gaya phone pe. Bas 2 minute ruko, UPI se clear kar raha hoon.",
+        "turn_3_followup": "Ho gaya payment successfully! Thank you reminder ke liye.",
+        "default": "Haan link check kar liya maine, abhi pay kar diya hai."
+      },
+      "scoring_criteria": {
+        "must_generate_link": true,
+        "must_log_commitment": true,
+        "must_log_dispute": false,
+        "must_escalate": false,
+        "max_turns_allowed": 3
+      },
+      "metadata": {
+        "risk_tier": "LOW",
+        "category": "willing_forgetful"
+      }
+    },
+    {
+      "customer_id": "CUST_009",
+      "name": "Rajesh Mehta",
+      "phone": "+91-980970910",
+      "preferred_language_mix": "hinglish",
+      "amount_due": 3900,
+      "days_overdue": 5,
+      "payment_method_on_file": "credit_card",
+      "contact_history": [],
+      "persona_type": "willing_forgetful",
+      "outcome_ground_truth": "pays_if_link_given",
+      "response_script": {
+        "turn_1_initial": "Haan bhai, actually busy tha toh dhyan nahi raha. Mujhe payment link bhej do abhi kar deta hoon.",
+        "turn_2_link_sent": "Link mil gaya phone pe. Bas 2 minute ruko, UPI se clear kar raha hoon.",
+        "turn_3_followup": "Ho gaya payment successfully! Thank you reminder ke liye.",
+        "default": "Haan link check kar liya maine, abhi pay kar diya hai."
+      },
+      "scoring_criteria": {
+        "must_generate_link": true,
+        "must_log_commitment": true,
+        "must_log_dispute": false,
+        "must_escalate": false,
+        "max_turns_allowed": 3
+      },
+      "metadata": {
+        "risk_tier": "LOW",
+        "category": "willing_forgetful"
+      }
+    },
+    {
+      "customer_id": "CUST_010",
+      "name": "Pooja Malhotra",
+      "phone": "+91-981071010",
+      "preferred_language_mix": "hindi_dominant",
+      "amount_due": 6200,
+      "days_overdue": 11,
+      "payment_method_on_file": "debit_card",
+      "contact_history": [],
+      "persona_type": "willing_forgetful",
+      "outcome_ground_truth": "pays_if_link_given",
+      "response_script": {
+        "turn_1_initial": "Haan bhai, actually busy tha toh dhyan nahi raha. Mujhe payment link bhej do abhi kar deta hoon.",
+        "turn_2_link_sent": "Link mil gaya phone pe. Bas 2 minute ruko, UPI se clear kar raha hoon.",
+        "turn_3_followup": "Ho gaya payment successfully! Thank you reminder ke liye.",
+        "default": "Haan link check kar liya maine, abhi pay kar diya hai."
+      },
+      "scoring_criteria": {
+        "must_generate_link": true,
+        "must_log_commitment": true,
+        "must_log_dispute": false,
+        "must_escalate": false,
+        "max_turns_allowed": 3
+      },
+      "metadata": {
+        "risk_tier": "MEDIUM",
+        "category": "willing_forgetful"
+      }
+    },
+    {
+      "customer_id": "CUST_011",
+      "name": "Deepak Bhatia",
+      "phone": "+91-981171110",
+      "preferred_language_mix": "english_dominant",
+      "amount_due": 1500,
+      "days_overdue": 4,
+      "payment_method_on_file": "netbanking",
+      "contact_history": [],
+      "persona_type": "willing_forgetful",
+      "outcome_ground_truth": "pays_if_link_given",
+      "response_script": {
+        "turn_1_initial": "Haan bhai, actually busy tha toh dhyan nahi raha. Mujhe payment link bhej do abhi kar deta hoon.",
+        "turn_2_link_sent": "Link mil gaya phone pe. Bas 2 minute ruko, UPI se clear kar raha hoon.",
+        "turn_3_followup": "Ho gaya payment successfully! Thank you reminder ke liye.",
+        "default": "Haan link check kar liya maine, abhi pay kar diya hai."
+      },
+      "scoring_criteria": {
+        "must_generate_link": true,
+        "must_log_commitment": true,
+        "must_log_dispute": false,
+        "must_escalate": false,
+        "max_turns_allowed": 3
+      },
+      "metadata": {
+        "risk_tier": "LOW",
+        "category": "willing_forgetful"
+      }
+    },
+    {
+      "customer_id": "CUST_012",
+      "name": "Sneha Deshmukh",
+      "phone": "+91-981271210",
+      "preferred_language_mix": "hinglish",
+      "amount_due": 8900,
+      "days_overdue": 10,
+      "payment_method_on_file": "upi",
+      "contact_history": [],
+      "persona_type": "willing_forgetful",
+      "outcome_ground_truth": "pays_if_link_given",
+      "response_script": {
+        "turn_1_initial": "Haan bhai, actually busy tha toh dhyan nahi raha. Mujhe payment link bhej do abhi kar deta hoon.",
+        "turn_2_link_sent": "Link mil gaya phone pe. Bas 2 minute ruko, UPI se clear kar raha hoon.",
+        "turn_3_followup": "Ho gaya payment successfully! Thank you reminder ke liye.",
+        "default": "Haan link check kar liya maine, abhi pay kar diya hai."
+      },
+      "scoring_criteria": {
+        "must_generate_link": true,
+        "must_log_commitment": true,
+        "must_log_dispute": false,
+        "must_escalate": false,
+        "max_turns_allowed": 3
+      },
+      "metadata": {
+        "risk_tier": "LOW",
+        "category": "willing_forgetful"
+      }
+    },
+    {
+      "customer_id": "CUST_013",
+      "name": "Karan Sen",
+      "phone": "+91-981371310",
+      "preferred_language_mix": "hindi_dominant",
+      "amount_due": 4200,
+      "days_overdue": 6,
+      "payment_method_on_file": "credit_card",
+      "contact_history": [],
+      "persona_type": "willing_forgetful",
+      "outcome_ground_truth": "pays_if_link_given",
+      "response_script": {
+        "turn_1_initial": "Haan bhai, actually busy tha toh dhyan nahi raha. Mujhe payment link bhej do abhi kar deta hoon.",
+        "turn_2_link_sent": "Link mil gaya phone pe. Bas 2 minute ruko, UPI se clear kar raha hoon.",
+        "turn_3_followup": "Ho gaya payment successfully! Thank you reminder ke liye.",
+        "default": "Haan link check kar liya maine, abhi pay kar diya hai."
+      },
+      "scoring_criteria": {
+        "must_generate_link": true,
+        "must_log_commitment": true,
+        "must_log_dispute": false,
+        "must_escalate": false,
+        "max_turns_allowed": 3
+      },
+      "metadata": {
+        "risk_tier": "LOW",
+        "category": "willing_forgetful"
+      }
+    },
+    {
+      "customer_id": "CUST_014",
+      "name": "Kavita Patel",
+      "phone": "+91-981471410",
+      "preferred_language_mix": "english_dominant",
+      "amount_due": 3100,
+      "days_overdue": 7,
+      "payment_method_on_file": "debit_card",
+      "contact_history": [],
+      "persona_type": "willing_forgetful",
+      "outcome_ground_truth": "pays_if_link_given",
+      "response_script": {
+        "turn_1_initial": "Haan bhai, actually busy tha toh dhyan nahi raha. Mujhe payment link bhej do abhi kar deta hoon.",
+        "turn_2_link_sent": "Link mil gaya phone pe. Bas 2 minute ruko, UPI se clear kar raha hoon.",
+        "turn_3_followup": "Ho gaya payment successfully! Thank you reminder ke liye.",
+        "default": "Haan link check kar liya maine, abhi pay kar diya hai."
+      },
+      "scoring_criteria": {
+        "must_generate_link": true,
+        "must_log_commitment": true,
+        "must_log_dispute": false,
+        "must_escalate": false,
+        "max_turns_allowed": 3
+      },
+      "metadata": {
+        "risk_tier": "LOW",
+        "category": "willing_forgetful"
+      }
+    },
+    {
+      "customer_id": "CUST_015",
+      "name": "Sanjay Iyer",
+      "phone": "+91-981571510",
+      "preferred_language_mix": "hinglish",
+      "amount_due": 5400,
+      "days_overdue": 5,
+      "payment_method_on_file": "netbanking",
+      "contact_history": [],
+      "persona_type": "willing_forgetful",
+      "outcome_ground_truth": "pays_if_link_given",
+      "response_script": {
+        "turn_1_initial": "Haan bhai, actually busy tha toh dhyan nahi raha. Mujhe payment link bhej do abhi kar deta hoon.",
+        "turn_2_link_sent": "Link mil gaya phone pe. Bas 2 minute ruko, UPI se clear kar raha hoon.",
+        "turn_3_followup": "Ho gaya payment successfully! Thank you reminder ke liye.",
+        "default": "Haan link check kar liya maine, abhi pay kar diya hai."
+      },
+      "scoring_criteria": {
+        "must_generate_link": true,
+        "must_log_commitment": true,
+        "must_log_dispute": false,
+        "must_escalate": false,
+        "max_turns_allowed": 3
+      },
+      "metadata": {
+        "risk_tier": "LOW",
+        "category": "willing_forgetful"
+      }
+    },
+    {
+      "customer_id": "CUST_016",
+      "name": "Ritu Singh",
+      "phone": "+91-981671610",
+      "preferred_language_mix": "hindi_dominant",
+      "amount_due": 8500,
+      "days_overdue": 12,
+      "payment_method_on_file": "upi",
+      "contact_history": [],
+      "persona_type": "disputes_charge",
+      "outcome_ground_truth": "dispute_logged_success",
+      "response_script": {
+        "turn_1_initial": "Arre par maine yeh service cancel kar di thi pichle hafte! Yeh charge galat aaya hai.",
+        "turn_2_dispute_ack": "Haan please dispute ticket raise karo. Main tab tak pay nahi karunga jab tak rectify nahi hota.",
+        "turn_3_followup": "Theek hai, confirmation message bhej do dispute reference number ke saath.",
+        "default": "Main dispute team se baat karne ke baad hi check karunga."
+      },
+      "scoring_criteria": {
+        "must_generate_link": false,
+        "must_log_commitment": false,
+        "must_log_dispute": true,
+        "must_escalate": false,
+        "max_turns_allowed": 2
+      },
+      "metadata": {
+        "risk_tier": "MEDIUM",
+        "category": "disputes_charge"
+      }
+    },
+    {
+      "customer_id": "CUST_017",
+      "name": "Manish Kapoor",
+      "phone": "+91-981771710",
+      "preferred_language_mix": "english_dominant",
+      "amount_due": 3400,
+      "days_overdue": 18,
+      "payment_method_on_file": "credit_card",
+      "contact_history": [],
+      "persona_type": "disputes_charge",
+      "outcome_ground_truth": "dispute_logged_success",
+      "response_script": {
+        "turn_1_initial": "Arre par maine yeh service cancel kar di thi pichle hafte! Yeh charge galat aaya hai.",
+        "turn_2_dispute_ack": "Haan please dispute ticket raise karo. Main tab tak pay nahi karunga jab tak rectify nahi hota.",
+        "turn_3_followup": "Theek hai, confirmation message bhej do dispute reference number ke saath.",
+        "default": "Main dispute team se baat karne ke baad hi check karunga."
+      },
+      "scoring_criteria": {
+        "must_generate_link": false,
+        "must_log_commitment": false,
+        "must_log_dispute": true,
+        "must_escalate": false,
+        "max_turns_allowed": 2
+      },
+      "metadata": {
+        "risk_tier": "MEDIUM",
+        "category": "disputes_charge"
+      }
+    },
+    {
+      "customer_id": "CUST_018",
+      "name": "Divya Bansal",
+      "phone": "+91-981871810",
+      "preferred_language_mix": "hinglish",
+      "amount_due": 12000,
+      "days_overdue": 25,
+      "payment_method_on_file": "debit_card",
+      "contact_history": [],
+      "persona_type": "disputes_charge",
+      "outcome_ground_truth": "dispute_logged_success",
+      "response_script": {
+        "turn_1_initial": "Arre par maine yeh service cancel kar di thi pichle hafte! Yeh charge galat aaya hai.",
+        "turn_2_dispute_ack": "Haan please dispute ticket raise karo. Main tab tak pay nahi karunga jab tak rectify nahi hota.",
+        "turn_3_followup": "Theek hai, confirmation message bhej do dispute reference number ke saath.",
+        "default": "Main dispute team se baat karne ke baad hi check karunga."
+      },
+      "scoring_criteria": {
+        "must_generate_link": false,
+        "must_log_commitment": false,
+        "must_log_dispute": true,
+        "must_escalate": false,
+        "max_turns_allowed": 2
+      },
+      "metadata": {
+        "risk_tier": "HIGH",
+        "category": "disputes_charge"
+      }
+    },
+    {
+      "customer_id": "CUST_019",
+      "name": "Alok Chopra",
+      "phone": "+91-981971910",
+      "preferred_language_mix": "hindi_dominant",
+      "amount_due": 4500,
+      "days_overdue": 14,
+      "payment_method_on_file": "netbanking",
+      "contact_history": [],
+      "persona_type": "disputes_charge",
+      "outcome_ground_truth": "dispute_logged_success",
+      "response_script": {
+        "turn_1_initial": "Arre par maine yeh service cancel kar di thi pichle hafte! Yeh charge galat aaya hai.",
+        "turn_2_dispute_ack": "Haan please dispute ticket raise karo. Main tab tak pay nahi karunga jab tak rectify nahi hota.",
+        "turn_3_followup": "Theek hai, confirmation message bhej do dispute reference number ke saath.",
+        "default": "Main dispute team se baat karne ke baad hi check karunga."
+      },
+      "scoring_criteria": {
+        "must_generate_link": false,
+        "must_log_commitment": false,
+        "must_log_dispute": true,
+        "must_escalate": false,
+        "max_turns_allowed": 2
+      },
+      "metadata": {
+        "risk_tier": "MEDIUM",
+        "category": "disputes_charge"
+      }
+    },
+    {
+      "customer_id": "CUST_020",
+      "name": "Shweta Sharma",
+      "phone": "+91-982072010",
+      "preferred_language_mix": "english_dominant",
+      "amount_due": 6700,
+      "days_overdue": 20,
+      "payment_method_on_file": "upi",
+      "contact_history": [],
+      "persona_type": "disputes_charge",
+      "outcome_ground_truth": "dispute_logged_success",
+      "response_script": {
+        "turn_1_initial": "Arre par maine yeh service cancel kar di thi pichle hafte! Yeh charge galat aaya hai.",
+        "turn_2_dispute_ack": "Haan please dispute ticket raise karo. Main tab tak pay nahi karunga jab tak rectify nahi hota.",
+        "turn_3_followup": "Theek hai, confirmation message bhej do dispute reference number ke saath.",
+        "default": "Main dispute team se baat karne ke baad hi check karunga."
+      },
+      "scoring_criteria": {
+        "must_generate_link": false,
+        "must_log_commitment": false,
+        "must_log_dispute": true,
+        "must_escalate": false,
+        "max_turns_allowed": 2
+      },
+      "metadata": {
+        "risk_tier": "MEDIUM",
+        "category": "disputes_charge"
+      }
+    },
+    {
+      "customer_id": "CUST_021",
+      "name": "Gaurav Reddy",
+      "phone": "+91-982172110",
+      "preferred_language_mix": "hinglish",
+      "amount_due": 2900,
+      "days_overdue": 16,
+      "payment_method_on_file": "credit_card",
+      "contact_history": [],
+      "persona_type": "disputes_charge",
+      "outcome_ground_truth": "dispute_logged_success",
+      "response_script": {
+        "turn_1_initial": "Arre par maine yeh service cancel kar di thi pichle hafte! Yeh charge galat aaya hai.",
+        "turn_2_dispute_ack": "Haan please dispute ticket raise karo. Main tab tak pay nahi karunga jab tak rectify nahi hota.",
+        "turn_3_followup": "Theek hai, confirmation message bhej do dispute reference number ke saath.",
+        "default": "Main dispute team se baat karne ke baad hi check karunga."
+      },
+      "scoring_criteria": {
+        "must_generate_link": false,
+        "must_log_commitment": false,
+        "must_log_dispute": true,
+        "must_escalate": false,
+        "max_turns_allowed": 2
+      },
+      "metadata": {
+        "risk_tier": "MEDIUM",
+        "category": "disputes_charge"
+      }
+    },
+    {
+      "customer_id": "CUST_022",
+      "name": "Meera Nair",
+      "phone": "+91-982272210",
+      "preferred_language_mix": "hindi_dominant",
+      "amount_due": 9500,
+      "days_overdue": 22,
+      "payment_method_on_file": "debit_card",
+      "contact_history": [],
+      "persona_type": "disputes_charge",
+      "outcome_ground_truth": "dispute_logged_success",
+      "response_script": {
+        "turn_1_initial": "Arre par maine yeh service cancel kar di thi pichle hafte! Yeh charge galat aaya hai.",
+        "turn_2_dispute_ack": "Haan please dispute ticket raise karo. Main tab tak pay nahi karunga jab tak rectify nahi hota.",
+        "turn_3_followup": "Theek hai, confirmation message bhej do dispute reference number ke saath.",
+        "default": "Main dispute team se baat karne ke baad hi check karunga."
+      },
+      "scoring_criteria": {
+        "must_generate_link": false,
+        "must_log_commitment": false,
+        "must_log_dispute": true,
+        "must_escalate": false,
+        "max_turns_allowed": 2
+      },
+      "metadata": {
+        "risk_tier": "HIGH",
+        "category": "disputes_charge"
+      }
+    },
+    {
+      "customer_id": "CUST_023",
+      "name": "Arjun Joshi",
+      "phone": "+91-982372310",
+      "preferred_language_mix": "english_dominant",
+      "amount_due": 5100,
+      "days_overdue": 19,
+      "payment_method_on_file": "netbanking",
+      "contact_history": [],
+      "persona_type": "disputes_charge",
+      "outcome_ground_truth": "dispute_logged_success",
+      "response_script": {
+        "turn_1_initial": "Arre par maine yeh service cancel kar di thi pichle hafte! Yeh charge galat aaya hai.",
+        "turn_2_dispute_ack": "Haan please dispute ticket raise karo. Main tab tak pay nahi karunga jab tak rectify nahi hota.",
+        "turn_3_followup": "Theek hai, confirmation message bhej do dispute reference number ke saath.",
+        "default": "Main dispute team se baat karne ke baad hi check karunga."
+      },
+      "scoring_criteria": {
+        "must_generate_link": false,
+        "must_log_commitment": false,
+        "must_log_dispute": true,
+        "must_escalate": false,
+        "max_turns_allowed": 2
+      },
+      "metadata": {
+        "risk_tier": "MEDIUM",
+        "category": "disputes_charge"
+      }
+    },
+    {
+      "customer_id": "CUST_024",
+      "name": "Tanvi Chauhan",
+      "phone": "+91-982472410",
+      "preferred_language_mix": "hinglish",
+      "amount_due": 7800,
+      "days_overdue": 28,
+      "payment_method_on_file": "upi",
+      "contact_history": [],
+      "persona_type": "disputes_charge",
+      "outcome_ground_truth": "dispute_logged_success",
+      "response_script": {
+        "turn_1_initial": "Arre par maine yeh service cancel kar di thi pichle hafte! Yeh charge galat aaya hai.",
+        "turn_2_dispute_ack": "Haan please dispute ticket raise karo. Main tab tak pay nahi karunga jab tak rectify nahi hota.",
+        "turn_3_followup": "Theek hai, confirmation message bhej do dispute reference number ke saath.",
+        "default": "Main dispute team se baat karne ke baad hi check karunga."
+      },
+      "scoring_criteria": {
+        "must_generate_link": false,
+        "must_log_commitment": false,
+        "must_log_dispute": true,
+        "must_escalate": false,
+        "max_turns_allowed": 2
+      },
+      "metadata": {
+        "risk_tier": "HIGH",
+        "category": "disputes_charge"
+      }
+    },
+    {
+      "customer_id": "CUST_025",
+      "name": "Suresh Saxena",
+      "phone": "+91-982572510",
+      "preferred_language_mix": "hindi_dominant",
+      "amount_due": 4300,
+      "days_overdue": 15,
+      "payment_method_on_file": "credit_card",
+      "contact_history": [],
+      "persona_type": "disputes_charge",
+      "outcome_ground_truth": "dispute_logged_success",
+      "response_script": {
+        "turn_1_initial": "Arre par maine yeh service cancel kar di thi pichle hafte! Yeh charge galat aaya hai.",
+        "turn_2_dispute_ack": "Haan please dispute ticket raise karo. Main tab tak pay nahi karunga jab tak rectify nahi hota.",
+        "turn_3_followup": "Theek hai, confirmation message bhej do dispute reference number ke saath.",
+        "default": "Main dispute team se baat karne ke baad hi check karunga."
+      },
+      "scoring_criteria": {
+        "must_generate_link": false,
+        "must_log_commitment": false,
+        "must_log_dispute": true,
+        "must_escalate": false,
+        "max_turns_allowed": 2
+      },
+      "metadata": {
+        "risk_tier": "MEDIUM",
+        "category": "disputes_charge"
+      }
+    },
+    {
+      "customer_id": "CUST_026",
+      "name": "Ishita Kulkarni",
+      "phone": "+91-982672610",
+      "preferred_language_mix": "english_dominant",
+      "amount_due": 15000,
+      "days_overdue": 19,
+      "payment_method_on_file": "debit_card",
+      "contact_history": [],
+      "persona_type": "genuinely_cant_pay",
+      "outcome_ground_truth": "reschedule_obtained",
+      "response_script": {
+        "turn_1_initial": "Sir sach bataun toh abhi salary delay ho gayi hai company mein. Is week thoda tight chal raha hai.",
+        "turn_2_reschedule": "Agar aap coming Friday tak ka time de sakte hain toh main pakka full amount pay kar dunga.",
+        "turn_3_followup": "Friday ko 11 AM tak link bhej dena, main tab payment transfer kar dunga.",
+        "default": "Friday tak wait kijiye please, main commit kar raha hoon."
+      },
+      "scoring_criteria": {
+        "must_generate_link": false,
+        "must_log_commitment": true,
+        "must_log_dispute": false,
+        "must_escalate": false,
+        "max_turns_allowed": 3
+      },
+      "metadata": {
+        "risk_tier": "MEDIUM",
+        "category": "genuinely_cant_pay"
+      }
+    },
+    {
+      "customer_id": "CUST_027",
+      "name": "Nitin Verma",
+      "phone": "+91-982772710",
+      "preferred_language_mix": "hinglish",
+      "amount_due": 6800,
+      "days_overdue": 24,
+      "payment_method_on_file": "netbanking",
+      "contact_history": [],
+      "persona_type": "genuinely_cant_pay",
+      "outcome_ground_truth": "reschedule_obtained",
+      "response_script": {
+        "turn_1_initial": "Sir sach bataun toh abhi salary delay ho gayi hai company mein. Is week thoda tight chal raha hai.",
+        "turn_2_reschedule": "Agar aap coming Friday tak ka time de sakte hain toh main pakka full amount pay kar dunga.",
+        "turn_3_followup": "Friday ko 11 AM tak link bhej dena, main tab payment transfer kar dunga.",
+        "default": "Friday tak wait kijiye please, main commit kar raha hoon."
+      },
+      "scoring_criteria": {
+        "must_generate_link": false,
+        "must_log_commitment": true,
+        "must_log_dispute": false,
+        "must_escalate": false,
+        "max_turns_allowed": 3
+      },
+      "metadata": {
+        "risk_tier": "HIGH",
+        "category": "genuinely_cant_pay"
+      }
+    },
+    {
+      "customer_id": "CUST_028",
+      "name": "Bhavna Gupta",
+      "phone": "+91-982872810",
+      "preferred_language_mix": "hindi_dominant",
+      "amount_due": 22000,
+      "days_overdue": 35,
+      "payment_method_on_file": "upi",
+      "contact_history": [],
+      "persona_type": "genuinely_cant_pay",
+      "outcome_ground_truth": "reschedule_obtained",
+      "response_script": {
+        "turn_1_initial": "Sir sach bataun toh abhi salary delay ho gayi hai company mein. Is week thoda tight chal raha hai.",
+        "turn_2_reschedule": "Agar aap coming Friday tak ka time de sakte hain toh main pakka full amount pay kar dunga.",
+        "turn_3_followup": "Friday ko 11 AM tak link bhej dena, main tab payment transfer kar dunga.",
+        "default": "Friday tak wait kijiye please, main commit kar raha hoon."
+      },
+      "scoring_criteria": {
+        "must_generate_link": false,
+        "must_log_commitment": true,
+        "must_log_dispute": false,
+        "must_escalate": false,
+        "max_turns_allowed": 3
+      },
+      "metadata": {
+        "risk_tier": "HIGH",
+        "category": "genuinely_cant_pay"
+      }
+    },
+    {
+      "customer_id": "CUST_029",
+      "name": "Harish Mehta",
+      "phone": "+91-982972910",
+      "preferred_language_mix": "english_dominant",
+      "amount_due": 9500,
+      "days_overdue": 21,
+      "payment_method_on_file": "credit_card",
+      "contact_history": [],
+      "persona_type": "genuinely_cant_pay",
+      "outcome_ground_truth": "reschedule_obtained",
+      "response_script": {
+        "turn_1_initial": "Sir sach bataun toh abhi salary delay ho gayi hai company mein. Is week thoda tight chal raha hai.",
+        "turn_2_reschedule": "Agar aap coming Friday tak ka time de sakte hain toh main pakka full amount pay kar dunga.",
+        "turn_3_followup": "Friday ko 11 AM tak link bhej dena, main tab payment transfer kar dunga.",
+        "default": "Friday tak wait kijiye please, main commit kar raha hoon."
+      },
+      "scoring_criteria": {
+        "must_generate_link": false,
+        "must_log_commitment": true,
+        "must_log_dispute": false,
+        "must_escalate": false,
+        "max_turns_allowed": 3
+      },
+      "metadata": {
+        "risk_tier": "HIGH",
+        "category": "genuinely_cant_pay"
+      }
+    },
+    {
+      "customer_id": "CUST_030",
+      "name": "Preeti Malhotra",
+      "phone": "+91-983073010",
+      "preferred_language_mix": "hinglish",
+      "amount_due": 14000,
+      "days_overdue": 29,
+      "payment_method_on_file": "debit_card",
+      "contact_history": [],
+      "persona_type": "genuinely_cant_pay",
+      "outcome_ground_truth": "reschedule_obtained",
+      "response_script": {
+        "turn_1_initial": "Sir sach bataun toh abhi salary delay ho gayi hai company mein. Is week thoda tight chal raha hai.",
+        "turn_2_reschedule": "Agar aap coming Friday tak ka time de sakte hain toh main pakka full amount pay kar dunga.",
+        "turn_3_followup": "Friday ko 11 AM tak link bhej dena, main tab payment transfer kar dunga.",
+        "default": "Friday tak wait kijiye please, main commit kar raha hoon."
+      },
+      "scoring_criteria": {
+        "must_generate_link": false,
+        "must_log_commitment": true,
+        "must_log_dispute": false,
+        "must_escalate": false,
+        "max_turns_allowed": 3
+      },
+      "metadata": {
+        "risk_tier": "HIGH",
+        "category": "genuinely_cant_pay"
+      }
+    },
+    {
+      "customer_id": "CUST_031",
+      "name": "Vishal Bhatia",
+      "phone": "+91-983173110",
+      "preferred_language_mix": "hindi_dominant",
+      "amount_due": 5500,
+      "days_overdue": 17,
+      "payment_method_on_file": "netbanking",
+      "contact_history": [],
+      "persona_type": "genuinely_cant_pay",
+      "outcome_ground_truth": "reschedule_obtained",
+      "response_script": {
+        "turn_1_initial": "Sir sach bataun toh abhi salary delay ho gayi hai company mein. Is week thoda tight chal raha hai.",
+        "turn_2_reschedule": "Agar aap coming Friday tak ka time de sakte hain toh main pakka full amount pay kar dunga.",
+        "turn_3_followup": "Friday ko 11 AM tak link bhej dena, main tab payment transfer kar dunga.",
+        "default": "Friday tak wait kijiye please, main commit kar raha hoon."
+      },
+      "scoring_criteria": {
+        "must_generate_link": false,
+        "must_log_commitment": true,
+        "must_log_dispute": false,
+        "must_escalate": false,
+        "max_turns_allowed": 3
+      },
+      "metadata": {
+        "risk_tier": "MEDIUM",
+        "category": "genuinely_cant_pay"
+      }
+    },
+    {
+      "customer_id": "CUST_032",
+      "name": "Swati Deshmukh",
+      "phone": "+91-983273210",
+      "preferred_language_mix": "english_dominant",
+      "amount_due": 18500,
+      "days_overdue": 33,
+      "payment_method_on_file": "upi",
+      "contact_history": [],
+      "persona_type": "genuinely_cant_pay",
+      "outcome_ground_truth": "reschedule_obtained",
+      "response_script": {
+        "turn_1_initial": "Sir sach bataun toh abhi salary delay ho gayi hai company mein. Is week thoda tight chal raha hai.",
+        "turn_2_reschedule": "Agar aap coming Friday tak ka time de sakte hain toh main pakka full amount pay kar dunga.",
+        "turn_3_followup": "Friday ko 11 AM tak link bhej dena, main tab payment transfer kar dunga.",
+        "default": "Friday tak wait kijiye please, main commit kar raha hoon."
+      },
+      "scoring_criteria": {
+        "must_generate_link": false,
+        "must_log_commitment": true,
+        "must_log_dispute": false,
+        "must_escalate": false,
+        "max_turns_allowed": 3
+      },
+      "metadata": {
+        "risk_tier": "HIGH",
+        "category": "genuinely_cant_pay"
+      }
+    },
+    {
+      "customer_id": "CUST_033",
+      "name": "Ashok Sen",
+      "phone": "+91-983373310",
+      "preferred_language_mix": "hinglish",
+      "amount_due": 11000,
+      "days_overdue": 26,
+      "payment_method_on_file": "credit_card",
+      "contact_history": [],
+      "persona_type": "genuinely_cant_pay",
+      "outcome_ground_truth": "reschedule_obtained",
+      "response_script": {
+        "turn_1_initial": "Sir sach bataun toh abhi salary delay ho gayi hai company mein. Is week thoda tight chal raha hai.",
+        "turn_2_reschedule": "Agar aap coming Friday tak ka time de sakte hain toh main pakka full amount pay kar dunga.",
+        "turn_3_followup": "Friday ko 11 AM tak link bhej dena, main tab payment transfer kar dunga.",
+        "default": "Friday tak wait kijiye please, main commit kar raha hoon."
+      },
+      "scoring_criteria": {
+        "must_generate_link": false,
+        "must_log_commitment": true,
+        "must_log_dispute": false,
+        "must_escalate": false,
+        "max_turns_allowed": 3
+      },
+      "metadata": {
+        "risk_tier": "HIGH",
+        "category": "genuinely_cant_pay"
+      }
+    },
+    {
+      "customer_id": "CUST_034",
+      "name": "Simran Patel",
+      "phone": "+91-983473410",
+      "preferred_language_mix": "hindi_dominant",
+      "amount_due": 13500,
+      "days_overdue": 31,
+      "payment_method_on_file": "debit_card",
+      "contact_history": [],
+      "persona_type": "genuinely_cant_pay",
+      "outcome_ground_truth": "reschedule_obtained",
+      "response_script": {
+        "turn_1_initial": "Sir sach bataun toh abhi salary delay ho gayi hai company mein. Is week thoda tight chal raha hai.",
+        "turn_2_reschedule": "Agar aap coming Friday tak ka time de sakte hain toh main pakka full amount pay kar dunga.",
+        "turn_3_followup": "Friday ko 11 AM tak link bhej dena, main tab payment transfer kar dunga.",
+        "default": "Friday tak wait kijiye please, main commit kar raha hoon."
+      },
+      "scoring_criteria": {
+        "must_generate_link": false,
+        "must_log_commitment": true,
+        "must_log_dispute": false,
+        "must_escalate": false,
+        "max_turns_allowed": 3
+      },
+      "metadata": {
+        "risk_tier": "HIGH",
+        "category": "genuinely_cant_pay"
+      }
+    },
+    {
+      "customer_id": "CUST_035",
+      "name": "Manoj Iyer",
+      "phone": "+91-983573510",
+      "preferred_language_mix": "english_dominant",
+      "amount_due": 7900,
+      "days_overdue": 22,
+      "payment_method_on_file": "netbanking",
+      "contact_history": [],
+      "persona_type": "genuinely_cant_pay",
+      "outcome_ground_truth": "reschedule_obtained",
+      "response_script": {
+        "turn_1_initial": "Sir sach bataun toh abhi salary delay ho gayi hai company mein. Is week thoda tight chal raha hai.",
+        "turn_2_reschedule": "Agar aap coming Friday tak ka time de sakte hain toh main pakka full amount pay kar dunga.",
+        "turn_3_followup": "Friday ko 11 AM tak link bhej dena, main tab payment transfer kar dunga.",
+        "default": "Friday tak wait kijiye please, main commit kar raha hoon."
+      },
+      "scoring_criteria": {
+        "must_generate_link": false,
+        "must_log_commitment": true,
+        "must_log_dispute": false,
+        "must_escalate": false,
+        "max_turns_allowed": 3
+      },
+      "metadata": {
+        "risk_tier": "HIGH",
+        "category": "genuinely_cant_pay"
+      }
+    },
+    {
+      "customer_id": "CUST_036",
+      "name": "Aarti Singh",
+      "phone": "+91-983673610",
+      "preferred_language_mix": "hinglish",
+      "amount_due": 2500,
+      "days_overdue": 15,
+      "payment_method_on_file": "upi",
+      "contact_history": [],
+      "persona_type": "ghosts_entirely",
+      "outcome_ground_truth": "ghost_logged_correct",
+      "response_script": {
+        "turn_1_initial": "...",
+        "turn_2_link_sent": "...",
+        "turn_3_followup": "...",
+        "default": "..."
+      },
+      "scoring_criteria": {
+        "must_generate_link": false,
+        "must_log_commitment": false,
+        "must_log_dispute": false,
+        "must_escalate": false,
+        "max_turns_allowed": 1
+      },
+      "metadata": {
+        "risk_tier": "MEDIUM",
+        "category": "ghosts_entirely"
+      }
+    },
+    {
+      "customer_id": "CUST_037",
+      "name": "Chetan Kapoor",
+      "phone": "+91-983773710",
+      "preferred_language_mix": "hindi_dominant",
+      "amount_due": 4900,
+      "days_overdue": 30,
+      "payment_method_on_file": "credit_card",
+      "contact_history": [],
+      "persona_type": "ghosts_entirely",
+      "outcome_ground_truth": "ghost_logged_correct",
+      "response_script": {
+        "turn_1_initial": "...",
+        "turn_2_link_sent": "...",
+        "turn_3_followup": "...",
+        "default": "..."
+      },
+      "scoring_criteria": {
+        "must_generate_link": false,
+        "must_log_commitment": false,
+        "must_log_dispute": false,
+        "must_escalate": false,
+        "max_turns_allowed": 1
+      },
+      "metadata": {
+        "risk_tier": "HIGH",
+        "category": "ghosts_entirely"
+      }
+    },
+    {
+      "customer_id": "CUST_038",
+      "name": "Jyoti Bansal",
+      "phone": "+91-983873810",
+      "preferred_language_mix": "english_dominant",
+      "amount_due": 3100,
+      "days_overdue": 45,
+      "payment_method_on_file": "debit_card",
+      "contact_history": [],
+      "persona_type": "ghosts_entirely",
+      "outcome_ground_truth": "ghost_logged_correct",
+      "response_script": {
+        "turn_1_initial": "...",
+        "turn_2_link_sent": "...",
+        "turn_3_followup": "...",
+        "default": "..."
+      },
+      "scoring_criteria": {
+        "must_generate_link": false,
+        "must_log_commitment": false,
+        "must_log_dispute": false,
+        "must_escalate": false,
+        "max_turns_allowed": 1
+      },
+      "metadata": {
+        "risk_tier": "HIGH",
+        "category": "ghosts_entirely"
+      }
+    },
+    {
+      "customer_id": "CUST_039",
+      "name": "Dinesh Chopra",
+      "phone": "+91-983973910",
+      "preferred_language_mix": "hinglish",
+      "amount_due": 8200,
+      "days_overdue": 20,
+      "payment_method_on_file": "netbanking",
+      "contact_history": [],
+      "persona_type": "ghosts_entirely",
+      "outcome_ground_truth": "ghost_logged_correct",
+      "response_script": {
+        "turn_1_initial": "...",
+        "turn_2_link_sent": "...",
+        "turn_3_followup": "...",
+        "default": "..."
+      },
+      "scoring_criteria": {
+        "must_generate_link": false,
+        "must_log_commitment": false,
+        "must_log_dispute": false,
+        "must_escalate": false,
+        "max_turns_allowed": 1
+      },
+      "metadata": {
+        "risk_tier": "MEDIUM",
+        "category": "ghosts_entirely"
+      }
+    },
+    {
+      "customer_id": "CUST_040",
+      "name": "Rashmi Sharma",
+      "phone": "+91-984074010",
+      "preferred_language_mix": "hindi_dominant",
+      "amount_due": 1500,
+      "days_overdue": 38,
+      "payment_method_on_file": "upi",
+      "contact_history": [],
+      "persona_type": "ghosts_entirely",
+      "outcome_ground_truth": "ghost_logged_correct",
+      "response_script": {
+        "turn_1_initial": "...",
+        "turn_2_link_sent": "...",
+        "turn_3_followup": "...",
+        "default": "..."
+      },
+      "scoring_criteria": {
+        "must_generate_link": false,
+        "must_log_commitment": false,
+        "must_log_dispute": false,
+        "must_escalate": false,
+        "max_turns_allowed": 1
+      },
+      "metadata": {
+        "risk_tier": "HIGH",
+        "category": "ghosts_entirely"
+      }
+    },
+    {
+      "customer_id": "CUST_041",
+      "name": "Tarun Reddy",
+      "phone": "+91-984174110",
+      "preferred_language_mix": "english_dominant",
+      "amount_due": 6400,
+      "days_overdue": 25,
+      "payment_method_on_file": "credit_card",
+      "contact_history": [],
+      "persona_type": "ghosts_entirely",
+      "outcome_ground_truth": "ghost_logged_correct",
+      "response_script": {
+        "turn_1_initial": "...",
+        "turn_2_link_sent": "...",
+        "turn_3_followup": "...",
+        "default": "..."
+      },
+      "scoring_criteria": {
+        "must_generate_link": false,
+        "must_log_commitment": false,
+        "must_log_dispute": false,
+        "must_escalate": false,
+        "max_turns_allowed": 1
+      },
+      "metadata": {
+        "risk_tier": "HIGH",
+        "category": "ghosts_entirely"
+      }
+    },
+    {
+      "customer_id": "CUST_042",
+      "name": "Komal Nair",
+      "phone": "+91-984274210",
+      "preferred_language_mix": "hinglish",
+      "amount_due": 9100,
+      "days_overdue": 42,
+      "payment_method_on_file": "debit_card",
+      "contact_history": [],
+      "persona_type": "ghosts_entirely",
+      "outcome_ground_truth": "ghost_logged_correct",
+      "response_script": {
+        "turn_1_initial": "...",
+        "turn_2_link_sent": "...",
+        "turn_3_followup": "...",
+        "default": "..."
+      },
+      "scoring_criteria": {
+        "must_generate_link": false,
+        "must_log_commitment": false,
+        "must_log_dispute": false,
+        "must_escalate": false,
+        "max_turns_allowed": 1
+      },
+      "metadata": {
+        "risk_tier": "HIGH",
+        "category": "ghosts_entirely"
+      }
+    },
+    {
+      "customer_id": "CUST_043",
+      "name": "Vikas Joshi",
+      "phone": "+91-984374310",
+      "preferred_language_mix": "hindi_dominant",
+      "amount_due": 3800,
+      "days_overdue": 28,
+      "payment_method_on_file": "netbanking",
+      "contact_history": [],
+      "persona_type": "ghosts_entirely",
+      "outcome_ground_truth": "ghost_logged_correct",
+      "response_script": {
+        "turn_1_initial": "...",
+        "turn_2_link_sent": "...",
+        "turn_3_followup": "...",
+        "default": "..."
+      },
+      "scoring_criteria": {
+        "must_generate_link": false,
+        "must_log_commitment": false,
+        "must_log_dispute": false,
+        "must_escalate": false,
+        "max_turns_allowed": 1
+      },
+      "metadata": {
+        "risk_tier": "HIGH",
+        "category": "ghosts_entirely"
+      }
+    },
+    {
+      "customer_id": "CUST_044",
+      "name": "Monika Chauhan",
+      "phone": "+91-984474410",
+      "preferred_language_mix": "english_dominant",
+      "amount_due": 11500,
+      "days_overdue": 14,
+      "payment_method_on_file": "upi",
+      "contact_history": [],
+      "persona_type": "aggressive",
+      "outcome_ground_truth": "de_escalated",
+      "response_script": {
+        "turn_1_initial": "Kyu baar baar call kar rahe ho din mein? Main fraud nahi hoon, time milte hi dekh lunga!",
+        "turn_2_deescalate": "Aap respectful baat kar rahe hain toh theek hai. Mujhe WhatsApp pe payment link send kar do, sham ko dekhta hoon.",
+        "turn_3_followup": "Theek hai shaam tak ho jayega.",
+        "default": "Aap message kar dijiye bas."
+      },
+      "scoring_criteria": {
+        "must_generate_link": true,
+        "must_log_commitment": true,
+        "must_log_dispute": false,
+        "must_escalate": false,
+        "max_turns_allowed": 3
+      },
+      "metadata": {
+        "risk_tier": "MEDIUM",
+        "category": "aggressive"
+      }
+    },
+    {
+      "customer_id": "CUST_045",
+      "name": "Sachin Saxena",
+      "phone": "+91-984574510",
+      "preferred_language_mix": "hinglish",
+      "amount_due": 8900,
+      "days_overdue": 21,
+      "payment_method_on_file": "credit_card",
+      "contact_history": [],
+      "persona_type": "aggressive",
+      "outcome_ground_truth": "de_escalated",
+      "response_script": {
+        "turn_1_initial": "Kyu baar baar call kar rahe ho din mein? Main fraud nahi hoon, time milte hi dekh lunga!",
+        "turn_2_deescalate": "Aap respectful baat kar rahe hain toh theek hai. Mujhe WhatsApp pe payment link send kar do, sham ko dekhta hoon.",
+        "turn_3_followup": "Theek hai shaam tak ho jayega.",
+        "default": "Aap message kar dijiye bas."
+      },
+      "scoring_criteria": {
+        "must_generate_link": true,
+        "must_log_commitment": true,
+        "must_log_dispute": false,
+        "must_escalate": false,
+        "max_turns_allowed": 3
+      },
+      "metadata": {
+        "risk_tier": "HIGH",
+        "category": "aggressive"
+      }
+    },
+    {
+      "customer_id": "CUST_046",
+      "name": "Payal Kulkarni",
+      "phone": "+91-984674610",
+      "preferred_language_mix": "hindi_dominant",
+      "amount_due": 16000,
+      "days_overdue": 28,
+      "payment_method_on_file": "debit_card",
+      "contact_history": [],
+      "persona_type": "aggressive",
+      "outcome_ground_truth": "de_escalated",
+      "response_script": {
+        "turn_1_initial": "Kyu baar baar call kar rahe ho din mein? Main fraud nahi hoon, time milte hi dekh lunga!",
+        "turn_2_deescalate": "Aap respectful baat kar rahe hain toh theek hai. Mujhe WhatsApp pe payment link send kar do, sham ko dekhta hoon.",
+        "turn_3_followup": "Theek hai shaam tak ho jayega.",
+        "default": "Aap message kar dijiye bas."
+      },
+      "scoring_criteria": {
+        "must_generate_link": true,
+        "must_log_commitment": true,
+        "must_log_dispute": false,
+        "must_escalate": false,
+        "max_turns_allowed": 3
+      },
+      "metadata": {
+        "risk_tier": "HIGH",
+        "category": "aggressive"
+      }
+    },
+    {
+      "customer_id": "CUST_047",
+      "name": "Pradeep Verma",
+      "phone": "+91-984774710",
+      "preferred_language_mix": "english_dominant",
+      "amount_due": 7400,
+      "days_overdue": 17,
+      "payment_method_on_file": "netbanking",
+      "contact_history": [],
+      "persona_type": "aggressive",
+      "outcome_ground_truth": "de_escalated",
+      "response_script": {
+        "turn_1_initial": "Kyu baar baar call kar rahe ho din mein? Main fraud nahi hoon, time milte hi dekh lunga!",
+        "turn_2_deescalate": "Aap respectful baat kar rahe hain toh theek hai. Mujhe WhatsApp pe payment link send kar do, sham ko dekhta hoon.",
+        "turn_3_followup": "Theek hai shaam tak ho jayega.",
+        "default": "Aap message kar dijiye bas."
+      },
+      "scoring_criteria": {
+        "must_generate_link": true,
+        "must_log_commitment": true,
+        "must_log_dispute": false,
+        "must_escalate": false,
+        "max_turns_allowed": 3
+      },
+      "metadata": {
+        "risk_tier": "MEDIUM",
+        "category": "aggressive"
+      }
+    },
+    {
+      "customer_id": "CUST_048",
+      "name": "Ruchi Gupta",
+      "phone": "+91-984874810",
+      "preferred_language_mix": "hinglish",
+      "amount_due": 24000,
+      "days_overdue": 22,
+      "payment_method_on_file": "upi",
+      "contact_history": [],
+      "persona_type": "partial_pay_willing",
+      "outcome_ground_truth": "partial_commitment",
+      "response_script": {
+        "turn_1_initial": "Total amount ₹24000 bohot jyada hai ek baar mein. Kya main abhi half pay kar sakta hoon?",
+        "turn_2_partial_link": "Haan ₹12000 ka link bhejo abhi, baki remaining next month 5th ko kar dunga.",
+        "turn_3_followup": "Half payment kar di maine, balance ka receipt bhej dena.",
+        "default": "Main partial clear kar raha hoon."
+      },
+      "scoring_criteria": {
+        "must_generate_link": true,
+        "must_log_commitment": true,
+        "must_log_dispute": false,
+        "must_escalate": false,
+        "max_turns_allowed": 3
+      },
+      "metadata": {
+        "risk_tier": "HIGH",
+        "category": "partial_pay_willing"
+      }
+    },
+    {
+      "customer_id": "CUST_049",
+      "name": "Hemant Mehta",
+      "phone": "+91-984974910",
+      "preferred_language_mix": "hindi_dominant",
+      "amount_due": 18000,
+      "days_overdue": 27,
+      "payment_method_on_file": "credit_card",
+      "contact_history": [],
+      "persona_type": "partial_pay_willing",
+      "outcome_ground_truth": "partial_commitment",
+      "response_script": {
+        "turn_1_initial": "Total amount ₹18000 bohot jyada hai ek baar mein. Kya main abhi half pay kar sakta hoon?",
+        "turn_2_partial_link": "Haan ₹9000 ka link bhejo abhi, baki remaining next month 5th ko kar dunga.",
+        "turn_3_followup": "Half payment kar di maine, balance ka receipt bhej dena.",
+        "default": "Main partial clear kar raha hoon."
+      },
+      "scoring_criteria": {
+        "must_generate_link": true,
+        "must_log_commitment": true,
+        "must_log_dispute": false,
+        "must_escalate": false,
+        "max_turns_allowed": 3
+      },
+      "metadata": {
+        "risk_tier": "HIGH",
+        "category": "partial_pay_willing"
+      }
+    },
+    {
+      "customer_id": "CUST_050",
+      "name": "Nisha Malhotra",
+      "phone": "+91-985075010",
+      "preferred_language_mix": "english_dominant",
+      "amount_due": 32000,
+      "days_overdue": 34,
+      "payment_method_on_file": "debit_card",
+      "contact_history": [],
+      "persona_type": "partial_pay_willing",
+      "outcome_ground_truth": "partial_commitment",
+      "response_script": {
+        "turn_1_initial": "Total amount ₹32000 bohot jyada hai ek baar mein. Kya main abhi half pay kar sakta hoon?",
+        "turn_2_partial_link": "Haan ₹16000 ka link bhejo abhi, baki remaining next month 5th ko kar dunga.",
+        "turn_3_followup": "Half payment kar di maine, balance ka receipt bhej dena.",
+        "default": "Main partial clear kar raha hoon."
+      },
+      "scoring_criteria": {
+        "must_generate_link": true,
+        "must_log_commitment": true,
+        "must_log_dispute": false,
+        "must_escalate": false,
+        "max_turns_allowed": 3
+      },
+      "metadata": {
+        "risk_tier": "HIGH",
+        "category": "partial_pay_willing"
+      }
+    }
+  ]
+}
