@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 64" width="240" height="64" fill="none">
+  <defs>
+    <linearGradient id="logoBgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF7711" />
+      <stop offset="100%" stop-color="#E55500" />
+    </linearGradient>
+    <linearGradient id="logoSpecular" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.4" />
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0" />
+    </linearGradient>
+    <filter id="logoShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="1.5" stdDeviation="1.5" flood-color="#000000" flood-opacity="0.25" />
+    </filter>
+  </defs>
+
+  <!-- Logo Mark Squircle -->
+  <rect x="2" y="6" width="52" height="52" rx="13" fill="url(#logoBgGrad)" stroke="#CC4400" stroke-width="1.2" />
+  <rect x="3" y="7" width="50" height="24" rx="12" fill="url(#logoSpecular)" />
+
+  <!-- Dual Concentric Waves -->
+  <path d="M 38 23 A 14 14 0 0 1 38 41" stroke="#FFFFFF" stroke-width="2.6" stroke-linecap="round" stroke-opacity="0.5" />
+  <path d="M 43 19 A 20 20 0 0 1 43 45" stroke="#FFFFFF" stroke-width="2.2" stroke-linecap="round" stroke-opacity="0.3" />
+
+  <!-- Lightning Bolt -->
+  <path
+    d="M 29 14 L 16 33 H 26 L 22 50 L 39 29 H 28 Z"
+    fill="#FFFFFF"
+    filter="url(#logoShadow)"
+    stroke="#FFFFFF"
+    stroke-width="0.8"
+    stroke-linejoin="round"
+  />
+
+  <!-- Brand Typography -->
+  <text x="66" y="38" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="23" font-weight="800" letter-spacing="-0.03em" fill="#0F0F0F">
+    Recovery<tspan fill="#FF6600">OS</tspan>
+  </text>
+  <text x="67" y="49" font-family="'JetBrains Mono', monospace" font-size="8.5" font-weight="700" letter-spacing="0.08em" fill="#8C827A">
+    AUTONOMOUS REVENUE RECOVERY
+  </text>
+</svg>
